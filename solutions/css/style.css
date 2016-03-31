@@ -111,34 +111,40 @@ p {
   width: 100px;
   height: 20px;
   border: 1px solid black;
- 
-
 }
 #p1 {
   background-color: #A52A2A;
-  
+  border: 2px solid black;
 }
 #p2 {
   background-color: #A52A2A;
-
+  border: 2px solid black;
 }
 #p3 {
   background-color: #A52A2A;
+  border: 2px solid black;
 }
 
 #container{
 	margin: 10px;
 	background: blue;
 	text-align: justify;
+	border: 4px solid black;
+	padding: 10px;
 }
 #con1{
 	margin: 10px;
 		background: blue;
 		text-align: justify;
+		border: 4px solid black;
+		padding: 10px;
+
 }
 #con2{
 margin: 10px;
 margin-right: 10px;
 	background: blue;
 text-align: justify;
+border: 4px solid black;
+padding: 10px;
 }
