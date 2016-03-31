@@ -115,14 +115,23 @@ p {
 #p1 {
   background-color: #A52A2A;
   border: 2px solid black;
+  position: relative;
+  float: right;
+  
 }
 #p2 {
   background-color: #A52A2A;
   border: 2px solid black;
+  position: relative;
+  float: right;
+  
 }
 #p3 {
   background-color: #A52A2A;
   border: 2px solid black;
+  position: relative;
+  float: right;
+  
 }
 
 #container{
@@ -131,6 +140,7 @@ p {
 	text-align: justify;
 	border: 4px solid black;
 	padding: 10px;
+	position: relative;
 }
 #con1{
 	margin: 10px;
@@ -138,6 +148,7 @@ p {
 		text-align: justify;
 		border: 4px solid black;
 		padding: 10px;
+		
 
 }
 #con2{
@@ -147,4 +158,5 @@ margin-right: 10px;
 text-align: justify;
 border: 4px solid black;
 padding: 10px;
+
 }
