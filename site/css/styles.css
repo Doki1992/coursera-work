@@ -52,6 +52,7 @@ body {
 }
 #encabezado{
   font-family: 'Roboto', black;
+  color: black;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #F0F0F0;
