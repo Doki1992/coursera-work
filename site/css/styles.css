@@ -50,8 +50,7 @@ body {
 #create{
   color: #337ab7;
 }
-#encabezado{
-  font-family: 'Roboto', black;
+#encabezado{  
   color: black;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
