@@ -1,0 +1,119 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #F0F0F0;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color:   #000000;
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  background: url('../images/logo.jpg') no-repeat;
+  width: 280px;
+  height: 200px;
+  margin: 25px 15px 10px 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Roboto', sans-serif;
+  color: #337ab7;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+#create{
+  color: #337ab7;
+}
+#encabezado{  
+  color: black;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #F0F0F0;
+}
+
+a{
+  text-align: center;
+}
+/*medium devices*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/logo_mediun.jpg') no-repeat;
+    width: 190px;
+    height: 150px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+}
+
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: white url('../images/fondo2.png') no-repeat;
+    height: 675px;
+    box-shadow: 0 0 50px #505050   ;
+  }
+    
+}
+/*medium device*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/logo_mediun.jpg') no-repeat;
+    width: 180px;
+    height: 150px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    background: white url('../images/fondo2.png') no-repeat;
+    height: 675px;
+    box-shadow: 0 0 50px #505050   ;
+  }
+  /* End Home Page */ 
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container .jumbotron {
+     background: white url('../images/fondo2.png') no-repeat;
+    height: 675px;
+    box-shadow: 0 0 50px #505050   ;
+  }
+  /* End Home Page */
+}
+
+@media (max-width: 767px){
+   .container .jumbotron {
+     background: white url('../images/fondo2.png') no-repeat;
+    height: 675px;
+    box-shadow: 0 0 50px #505050   ;
+  }
+}
