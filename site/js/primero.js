@@ -1,1 +1,2 @@
-alert ("Bienvenido, te informamos que tenesmos nuevo contenido agregada al sitio");
+alert ("Bienvenido, te informamos que tenemos nuevo contenido agregado al sitio");
+setTimeout("alert('Hey hemos agreado un tutorial sobre como instalar ubuntu')", 3000);
