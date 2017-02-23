@@ -1,0 +1,1 @@
+alert ("Bienvenido, te informamos que tenesmos nuevo contenido agregada al sitio");
