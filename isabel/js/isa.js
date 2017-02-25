@@ -1,4 +1,4 @@
-alert("Hola, quiero decierte que te amo. Tengo ganas de llorar  lo siento no me gusta que te enojes, perdon por solo decirte estupideces lo siento de verdad.");
+alert("Hola, al final de página puse una galeria, FRIA!!!. En contenidos esta el primer libro que te habia dicho. FRIA!!!");
 
 
 function agregar_elemento() {
@@ -18,13 +18,12 @@ var contador = 0;
 function addi(){
 	var padre = document.getElementById("imagen");
 	padre.setAttribute('src',uno[get(++contador)]);
-	alert(contador);
+	
 }
 
 function addr(){
 	var padre = document.getElementById("imagen");
-	padre.setAttribute('src',uno[get(--contador)]);
-	alert(contador);
+	padre.setAttribute('src',uno[get(--contador)]);	
 }
 
 var uno = ["images/uno.jpeg", "images/dos.jpeg", "images/tres.jpeg", "images/cuatro.jpeg","images/levi.png"];
@@ -34,9 +33,7 @@ function get(numero){
  	contador = 0;
  	return  0;
  }
- if (numero<0) {contador = 3;return 3}
-
- 	
+ if (numero<0) {contador = 3;return 3} 	
  return numero;
 }
 
