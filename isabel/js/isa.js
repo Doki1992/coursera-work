@@ -1,0 +1,1 @@
+alert("hola, no creo que estes viendo esto pero igual por si lo haces quiero decirte que Te amo enserio que lo hago como me hubiera gustado quedarme contigo pero tu no quisiste y pues bueno no puedo estar rogante siempre te vas a aburrir. jajaja te amo Isa con tigo se va una parte de mi");
