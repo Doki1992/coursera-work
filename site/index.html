@@ -49,20 +49,23 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#primera">Segundo informe practicas 2017</a></li>
-                <li><a href="#about">...</a></li>
-                <li><a href="#contact">...</a></li>
+                <li id="si" onclick="cambiar_estado('si')" onmouseover="mostrar_cuadro("si")"><a href="#primera">Segundo informe practicas 2017</a></li>
+                <li id="ti" onclick="cambiar_estado('ti')" onclick="mostrar_cuadro("ti")"><a href="#tercero">Tercer informe practicas 2017</a></li>
+                <li id="pi" onclick="cambiar_estado('pi')"><a href="#contact">Primer informe practicas 2017</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contenidos<span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                  <li class="active"><a href="contenido/u.pdf">Ayuda   <span class="text-muted">Nuevo</span>-</a></li>
-                  <li class="active"><a href="contenido/a.pdf">Ayuda   <span class="text-muted">Nuevo</span>-</a></li>
+                  <li class="dropdown-header">Ayuda informe 2</li>
+                  <li class=""><a href="contenido/u.pdf">Ayuda   <span class="text-muted">Nuevo</span>-</a></li>
+                  <li class=""><a href="contenido/a.pdf">Ayuda   <span class="text-muted">Nuevo</span>-</a></li>
                     <li><a href="contenido/manual.pdf">Manual mantenimiento laptop</a></li>
                     <li><a href="contenido/trifoliar.pdf">Trifoliar mantenimiento laptop</a></li>                    
                     <li role="separator" class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
+                    <li class="dropdown-header">Ayuda informe 1</li>
                     <li><a href="contenido/coman.pdf">Código latex manual</a></li>
                     <li><a href="contenido/cotri.pdf">Código latex trifoliar</a></li>
+                    <li class="dropdown-header">Ayuda informe 3</li>
+                    <li><a href="contenido/Ayuda_informe_3.pdf">Como instalar samba en Ubuntu 14.04</a></li>
                   </ul>
                 </li>
               </ul>
@@ -72,6 +75,10 @@
 
       </div>
     </div>
+
+<div id="cuadro" class="col-md-offset-4"> 
+<p id="contenido"> </p>
+</div>
 
 
     <!-- Carousel
@@ -213,6 +220,24 @@
           </div>
         </div>
       </div>
+      
+
+      <a name="tercero"></a>
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Configuracion de recursos compartidos y acceso remoto<span class="text-muted"></span></h2>
+          <p class="lead"> En el siguiente video se muestra como hacer o crear recursos compartidos entre windows y 
+          ubuntu (linux)</p>
+        </div>
+        <div class="col-md-5">
+          <div class="embed-responsive embed-responsive-16by9">
+           <iframe width="854" height="480" src="https://www.youtube.com/embed/DSOQIgnOKHg" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
 
 
 
